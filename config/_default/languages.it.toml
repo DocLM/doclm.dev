@@ -1,5 +1,5 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "it"
+languageName = "Italiano"
 languageDirection = "ltr"
 weight = 1
 
@@ -10,13 +10,13 @@ title = "doclm:~#"
   dateFormat = "2 January 2006"
 
   mainSections = ["posts"]
-  description = "Leonardo's tech blog"
+  description = "Il blog tech di Leonardo"
 
 [params.author]
   name = "Leonardo Medici"
   image = "img/avatar.png"
-  headline = "I make castles in a Serverless sky"
-  bio = "Building castles in the Cloud, one container at time"
+  headline = "Faccio castelli nei cieli del Cloud"
+  bio = "Costruisco castelli nel Cloud, un container alla volta"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },

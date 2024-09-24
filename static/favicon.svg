@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="logo" width="995" height="995" viewBox="0 0 995 995" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+   <path style="stroke:#000000;stroke-width:30;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;paint-order:fill markers stroke" d="M 497.5,75 594,242.1429 M 497.5,75 401,242.1429 m 0,0 -96.5,167.1429 M 594,242.1429 690.5,409.2858 m -386,0 L 208,576.4287 M 497.5,409.2858 401,576.4287 M 497.5,409.2858 594,576.4287 M 690.5,409.2858 787,576.4287 m -579,0 -96.5,167.1429 M 401,576.4287 304.5,743.5716 M 594,576.4287 690.5,743.5716 M 787,576.4287 883.5,743.5716 m -772,0 L 15,910.7145 m 0,0 h 193 m 0,0 H 401 M 497.5,743.5716 401,910.7145 m 0,0 h 193 m 0,0 H 787 M 690.5,743.5716 787,910.7145 M 883.5,743.5716 980,910.7145 m -193,0 h 193" />
+   <style type="text/css">
+      path {
+        stroke: #1d4ed8 !important;
+      }
+      @media (prefers-color-scheme: dark) {
+        path {
+         stroke: #60a5fa !important;
+        }
+      }
+    </style>
+</svg>

@@ -60,6 +60,14 @@ jobs:
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-hugomod-
+
+      - name: Install NPM dependencies
+        run: npm ci
+      
+      - name: Generate favicons
+        run: |
+          sudo apt-get install -y inkscape imagemagick
+          ./build-favicons.sh
       
       - name: Build
         env:

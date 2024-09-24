@@ -11,3 +11,18 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Node
+node_modules/
+
+# Javascript assets
+/assets/lib
+
+# Frontmatter
+/.frontmatter/
+
+# Generated favicons
+/static/favicon-*.png
+/static/apple-touch-icon.png
+/static/android-chrome-*.png
+/static/favicon.ico

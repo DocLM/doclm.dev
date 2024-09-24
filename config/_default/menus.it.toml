@@ -16,7 +16,7 @@
   weight = 10
 
 [[main]]
-  name = "About me"
+  name = "Chi sono"
   pageRef = "pages/about-me"
   weight = 20
 
@@ -37,11 +37,11 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "Categories"
+  name = "Categorie"
   pageRef = "categories"
   weight = 20
 
 [[footer]]
-  name = "Tags"
+  name = "Tag"
   pageRef = "tags"
   weight = 30
