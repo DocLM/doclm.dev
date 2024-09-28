@@ -1,0 +1,31 @@
+{
+    "name": "doclm-dev",
+    "version": "1.0",
+    "description": "doclm.dev website",
+    "scripts": {
+        "preinstall": "rm -rf assets/lib",
+        "postinstall": "vendor-copy",
+        "assets": "rm -rf assets/lib && vendor-copy"
+    },
+    "author": "Leonardo Medici",
+    "license": "ISC",
+    "homepage": "https://doclm.dev",
+    "devDependencies": {
+        "vendor-copy": "^3.0.1"
+    },
+    "vendorCopy": [],
+    "devVendorCopy": [
+        {
+            "from": "node_modules/gsap/dist/gsap.min.js",
+            "to": "assets/lib/gsap/gsap.min.js"
+        },
+        {
+            "from": "node_modules/split-type/umd/index.min.js",
+            "to": "assets/lib/split-type/split-type.umd.min.js"
+        }
+    ],
+    "dependencies": {
+        "gsap": "^3.12.5",
+        "split-type": "^0.3.4"
+    }
+}

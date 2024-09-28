@@ -1,0 +1,25 @@
+{{ $gsap := resources.Get "lib/gsap/gsap.min.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $splitType := resources.Get "lib/split-type/split-type.umd.min.js" | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $jsHome := resources.Get "js/home.js" | resources.Minify | resources.Fingerprint "sha512" }}
+
+<div id="profile" class="h-full">
+  {{ partial "partials/home/profile.html" . }}
+</div>
+<script
+  defer
+  type="text/javascript"
+  src="{{ $gsap.RelPermalink }}"
+  integrity="{{ $gsap.Data.Integrity }}"
+></script>
+<script
+  defer
+  type="text/javascript"
+  src="{{ $splitType.RelPermalink }}"
+  integrity="{{ $splitType.Data.Integrity }}"
+></script>
+<script
+  defer
+  type="text/javascript"
+  src="{{ $jsHome.RelPermalink }}"
+  integrity="{{ $jsHome.Data.Integrity }}"
+></script>
